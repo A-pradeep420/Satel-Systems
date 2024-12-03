@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+nav{
+background-size: 500px;
+text-align: center;
+background-position: center;
+background-repeat: repeat-x;
+position: sticky;
+top: 0;
+
+}
+.navbar{
+    background: linear-gradient(to right,#b16bb6,#700374); /*Linear gradient */
+    height: 40px;
+    margin: auto;
+    padding: 15px 15 px;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    margin-left: 20px;
+    justify-content: center;
+
+}
+li a{
+    color: rgb(252, 251, 251);
+    justify-content: center;
+}
+
+ .Portfolio{
+    background-image: url('Untitled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    height: 40vh;
+    width: 1510px;
+    display: inline-block;
+         }
+.Portfolio h1{
+    text-align: center;
+    padding-top: 80px;
+        }
+.Portfolio P{
+    text-align: center;
+}
+.Portfolio1{
+    background-image: url('https://plus.unsplash.com/premium_photo-1661382011487-cd3d6b1d9dff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8YWV1NnJMLWo2ZXd8fGVufDB8fHx8fA%3D%3D');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: fit-content;
+display: inline-block;
+height: 40vh;
+width: 1510px;
+}
+.Portfolio1 h1{
+    text-align: center;
+    padding-top: 80px;
+}
+.Portfolio1 P{
+    text-align: center;
+}
+/* Portfolio Section */
+.portfolio {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #FFEB3B;
+    /* Yellow shade */
+}
+
+.portfolio .projects {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.portfolio .project {
+    text-align: center;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.portfolio .project-image {
+    width: 200px;
+    height: 200px;
+    background: #e0e0e0;
+    line-height: 200px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+
+
+    /* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
